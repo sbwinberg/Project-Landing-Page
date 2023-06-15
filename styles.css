@@ -1,0 +1,135 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Myriad Pro;
+}
+
+/*HEADER*/
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    padding-right: 10%;
+    padding-left: 10%;
+    background: #1F2937;
+
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+div ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+    margin-left: auto;
+}
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+/*HERO BODY*/
+.body {
+    display: flex;
+    padding: 5% 10% 5% 10%;
+    background: #1F2937;
+
+}
+.hero{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 450px;
+}
+.hero-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 450px;
+}
+.sign-up-button{
+    flex-grow: 0;
+    background-color:#3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px 8px 32px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+.placeholder {
+    display: flex;
+    margin-left: auto;
+}
+
+/*SECTION TWO*/
+.next-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4%;
+}
+.info {
+    padding: 3%;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.box {
+    height: 180px;
+    width: 180px;
+    border: 4px solid #3882F6;
+    border-radius: 10%;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+    display: flex;
+    flex-direction: column;
+}
+.box-text {
+    display: flex;
+    text-align: center;
+    font-size:18px;
+    color: #9ea0a3;
+    width: 188px;
+    margin-top: 8px;
+}
+
+/*SECTION THREE*/
+
+.third-body {
+    background-color: #E5E7EB;
+    padding:4%;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    text-align: center;
+    margin:auto;
+    width: 850px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1F2937;
+    padding: 16px;
+}
+.author {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+}
